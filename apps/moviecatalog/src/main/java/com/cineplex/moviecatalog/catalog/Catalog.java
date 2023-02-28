@@ -1,14 +1,15 @@
-package com.cineplex.moviecatalog.catalog.dto;
+package com.cineplex.moviecatalog.catalog;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor
-public class CatalogDto {
+@NoArgsConstructor
+public class Catalog {
 	
 	private String movieId;
-	private String name;
-	private String description;
 	private String playlist;
+	
 }

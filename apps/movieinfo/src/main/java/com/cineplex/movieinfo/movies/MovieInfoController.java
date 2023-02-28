@@ -11,6 +11,7 @@ public class MovieInfoController {
 	
 	@RequestMapping ("/{id}")
 	public MovieDto getMovieInfo(@PathVariable ("id") String id) {
-		return new MovieDto(id, "Transformers");
+//		return a movie with id and random generated name and description
+		return new MovieDto(id, "Movie " + id, "Description " + id);
 	}
 }

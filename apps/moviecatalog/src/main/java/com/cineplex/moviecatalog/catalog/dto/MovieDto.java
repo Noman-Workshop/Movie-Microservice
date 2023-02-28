@@ -5,10 +5,9 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class CatalogDto {
-	
-	private String movieId;
+public class MovieDto {
+
+	private String id;
 	private String name;
 	private String description;
-	private String playlist;
 }

@@ -8,5 +8,6 @@ import lombok.Data;
 public class RatingsDto {
 	
 	private String movieId;
+	private String userId;
 	private int rating;
 }
