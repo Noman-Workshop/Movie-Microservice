@@ -1,4 +1,4 @@
-package com.cineplex.moviecatalog.catalog.services.external;
+package com.cineplex.moviecatalog.catalog.services;
 
 import com.cineplex.moviecatalog.catalog.Catalog;
 import org.springframework.stereotype.Service;
@@ -9,7 +9,6 @@ import java.util.stream.Stream;
 
 @Service
 public class MovieCatalogService {
-	
 	
 	public List<Catalog> getCatalog(String userId) {
 		

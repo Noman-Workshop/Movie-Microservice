@@ -5,15 +5,15 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Data
-@Builder
-@NoArgsConstructor
 @AllArgsConstructor
-public class CatalogDto {
+@NoArgsConstructor
+@Builder
+public class UserMovieCatalogDto {
 	
-	private String movieId;
-	private String name;
-	private String description;
-	private int rating;
-	private String playlist;
+	private String userId;
+	private List<CatalogDto> catalog;
 }
