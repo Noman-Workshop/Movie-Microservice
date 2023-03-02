@@ -45,11 +45,10 @@ public class MovieCatalogController {
 		                            })
 		                            .collect(Collectors.toList());
 		
-		UserMovieCatalogDto build = UserMovieCatalogDto.builder()
-		                                               .userId(userId)
-		                                               .catalog(catalogDto)
-		                                               .build();
-		return build;
+		return UserMovieCatalogDto.builder()
+		                          .userId(userId)
+		                          .catalog(catalogDto)
+		                          .build();
 	}
 	
 }
