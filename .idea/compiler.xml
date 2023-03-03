@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.26/8f8cf0372abf564913e9796623aac4c8ea44025a/lombok-1.18.26.jar" />
+        </processorPath>
+        <module name="movie-ratings.test" />
+        <module name="movie-ratings.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="discoveryserver" target="11" />
+      <module name="discoveryserver.main" target="11" />
+      <module name="discoveryserver.test" target="11" />
+      <module name="moviecatalog" target="11" />
+      <module name="moviecatalog.main" target="11" />
+      <module name="moviecatalog.test" target="11" />
+      <module name="movieratings" target="11" />
+      <module name="movieratings.main" target="11" />
+      <module name="movieratings.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
