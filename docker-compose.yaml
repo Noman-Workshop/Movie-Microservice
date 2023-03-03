@@ -2,72 +2,65 @@
 version: '3'
 
 services:
-  discoveryserver:
+  discovery-server:
     image: amazoncorretto:11
-    container_name: discoveryserver
     volumes:
-      - ./apps/discoveryserver:/app
+      - ./apps/discovery-server/build/libs/discovery-server.jar:/app/discovery-server.jar
     working_dir: /app
-    ports:
-      - "8761:8761"
-    command: ./gradlew bootRun
+    command: java -jar discovery-server.jar
     environment:
       - server.port=8761
-      - eureka.instance.hostname=discoveryserver
-      - eureka.client.serviceUrl.defaultZone=http://discoveryserver:8761/eureka/
+      - eureka.client.serviceUrl.defaultZone=http://discovery-server:8761/eureka/
     networks:
       - cineplex-network
+    deploy:
+      replicas: 1
 
-  moviecatalog:
+  movie-catalog:
     image: amazoncorretto:11
-    container_name: moviecatalog
     volumes:
-      - ./apps/moviecatalog:/app
+      - ./apps/movie-catalog/build/libs/movie-catalog.jar:/app/movie-catalog.jar
     working_dir: /app
-    command: ./gradlew bootRun
-    ports:
-      - "8080:8080"
+    command: java -jar movie-catalog.jar
     environment:
       - server.port=8080
-      - eureka.instance.hostname=discoveryserver
-      - eureka.client.serviceUrl.defaultZone=http://discoveryserver:8761/eureka/
-    depends_on:
-      - discoveryserver
+      - eureka.client.serviceUrl.defaultZone=http://discovery-server:8761/eureka/
     networks:
       - cineplex-network
+    deploy:
+      replicas: 1
   
-  movieinfo:
+  movie-info:
     image: amazoncorretto:11
-    container_name: movieinfo
     volumes:
-      - ./apps/movieinfo:/app
+        - ./apps/movie-info/build/libs/movie-info.jar:/app/movie-info.jar
     working_dir: /app
-    command: ./gradlew bootRun
+    command: java -jar movie-info.jar
     environment:
       - server.port=8080
-      - eureka.instance.hostname=discoveryserver
-      - eureka.client.serviceUrl.defaultZone=http://discoveryserver:8761/eureka/
-    depends_on:
-      - discoveryserver
+      - eureka.client.serviceUrl.defaultZone=http://discovery-server:8761/eureka/
     networks:
       - cineplex-network
+    deploy:
+      replicas: 1
   
-  movieratings:
+  movie-ratings:
     image: amazoncorretto:11
-    container_name: movieratings
     volumes:
-      - ./apps/movieratings:/app
+        - ./apps/movie-ratings/build/libs/movie-ratings.jar:/app/movie-ratings.jar
     working_dir: /app
-    command: ./gradlew bootRun
+    command: java -jar movie-ratings.jar
     environment:
       - server.port=8080
-      - eureka.instance.hostname=discoveryserver
-      - eureka.client.serviceUrl.defaultZone=http://discoveryserver:8761/eureka/
-    depends_on:
-      - discoveryserver
+      - eureka.client.serviceUrl.defaultZone=http://discovery-server:8761/eureka/
     networks:
       - cineplex-network
+    deploy:
+      replicas: 1
     
 networks:
   cineplex-network:
     driver: bridge
+
+volumes:
+  build:
