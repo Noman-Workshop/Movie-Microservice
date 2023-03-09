@@ -1,0 +1,136 @@
+@startuml
+
+' create an api gateway as a component
+node "API Gateway" {
+    component "API Gateway RP1" as api_r1
+    component "API Gateway RP2" as api_r2
+    component "API Gateway RP3" as api_r3
+}
+
+' create a load balancer as a component
+component "Load Balancer" as lb_api_gateway
+
+' note for the load balancer
+note right of lb_api_gateway
+    500K requests per second
+    (Clustered NGINX)
+end note
+
+' connect the api gateway to the load balancer
+api_r1 -up-> lb_api_gateway
+api_r2 -up-> lb_api_gateway
+api_r3 -up-> lb_api_gateway
+
+node "Authorization Service" {
+    component "Auth App RP1" as auth_r1
+    component "Auth App RP1" as auth_r2
+    component "Auth App RP1" as auth_r3
+
+    ' create a consistent hashing load balancer
+    component "CH LB" as ch_lb
+
+    ' create a note to explain the load balancer
+    note right of ch_lb
+        Hashes the JWT signature
+    end note
+
+    ' connect the authorization service to the load balancer
+    auth_r1 --> ch_lb
+    auth_r2 --> ch_lb
+    auth_r3 --> ch_lb
+
+    component "Redis RP1" as redis_rp1
+    component "Redis RP2" as redis_rp2
+    component "Redis RP3" as redis_rp3
+
+   ' connect the redis instances to the load balancer under the load balancer
+    redis_rp1 -up-> ch_lb
+    redis_rp2 -up-> ch_lb
+    redis_rp3 -up-> ch_lb
+
+}
+
+node "Service" {
+    package "AppN RP1" {
+        component "App" as service_r1
+        component "Producer RP1"
+    }
+
+    package "AppN RP2" {
+        component "App" as service_r2
+        component "Producer RP2"
+    }
+
+    package "AppN RP3" {
+        component "App" as service_r3
+        component "Producer RP3"
+    }
+
+    ' create a consistent hashing load balancer
+    component "Load Balancer" as lb_service
+
+    ' connect the service to the load balancer
+    "AppN RP1" -up-> lb_service
+    "AppN RP2" -up-> lb_service
+    "AppN RP3" -up-> lb_service
+
+}
+
+' connect the load api gateway to the authorization service
+"API Gateway" -down-> "Authorization Service"
+"API Gateway" -down-> "Service"
+
+' create a kafka cluster
+node "Kafka Cluster" {
+    component "App1 Topic"
+    component "App2 Topic"
+    component "AppN Topic"
+    component "_consumer_offsets Topic"
+    "App2 Topic" -[hidden]left-> "App1 Topic"
+}
+
+"Kafka Cluster" -[hidden]down-> "App1 Topic"
+
+' connect the producer to the kafka cluster
+"Producer RP1" -down-> "Kafka Cluster"
+"Producer RP2" -down-> "Kafka Cluster"
+"Producer RP3" -down-> "Kafka Cluster"
+
+node "DB for AppN" {
+    package "DB RP1" {
+        component "DB RP1" as db_r1
+        component "Consumer RP1"
+    }
+
+    package "DB RP2" {
+        component "DB RP2" as db_r2
+        component "Consumer RP2"
+    }
+
+    package "DB RP3" {
+        component "DB RP3" as db_r3
+        component "Consumer RP3"
+    }
+
+    component "Load Balancer" as lb_db
+
+    ' load balance the database
+    db_r1 -up-> lb_db
+    db_r2 -up-> lb_db
+    db_r3 -up-> lb_db
+
+    ' connect the consumer to the kafka cluster
+    "Consumer RP1" -up-> "Kafka Cluster"
+    "Consumer RP2" -up-> "Kafka Cluster"
+    "Consumer RP3" -up-> "Kafka Cluster"
+}
+
+' connect AppN to the database
+"AppN Topic" -down-> "DB for AppN"
+lb_db -up-> "_consumer_offsets Topic"
+
+
+folder {
+}
+
+@enduml
