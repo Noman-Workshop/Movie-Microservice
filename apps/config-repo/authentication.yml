@@ -1,0 +1,4 @@
+my:
+  app:
+    name: "Authentication App"
+    description: "Authentication App Description"
