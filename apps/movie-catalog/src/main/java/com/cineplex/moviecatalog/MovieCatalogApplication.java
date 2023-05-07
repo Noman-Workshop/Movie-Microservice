@@ -15,9 +15,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableEurekaClient
 public class MovieCatalogApplication {
 	
-	public MovieCatalogApplication(EurekaClientConfig config) {
-	}
-	
 	public static void main(String[] args) {
 		SpringApplication.run(MovieCatalogApplication.class, args);
 	}

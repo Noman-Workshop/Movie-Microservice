@@ -4,7 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EurekaClientConfigBean;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -22,7 +24,6 @@ public class DiscoveryServerApplication {
 	public DiscoveryServerApplication(EurekaClientConfigBean eurekaClientConfigBean) {
 		this.eurekaClientConfigBean = eurekaClientConfigBean;
 	}
-	
 	
 	// set service url for eureka client
 	@PostMapping ("/setServiceUrl/{serviceUrl}")

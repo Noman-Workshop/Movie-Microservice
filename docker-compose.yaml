@@ -14,7 +14,7 @@ services:
     networks:
       - cineplex-network
     deploy:
-      replicas: 1
+      replicas: 2
 
   movie-catalog:
     image: amazoncorretto:11
