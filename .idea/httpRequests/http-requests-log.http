@@ -1,0 +1,144 @@
+GET http://localhost:8081/catalog/1
+
+<> 2023-03-15T150404.200.json
+
+###
+
+POST http://172.28.0.2:8761/setServiceUrl/172.28.0.3:8761
+
+###
+
+POST http://172.28.0.3:8761/setServiceUrl/172.28.0.2:8761/
+
+###
+
+GET http://localhost:8080/hello
+
+<> 2023-03-05T162737.200.txt
+
+###
+
+POST http://192.168.208.2:8761/setServiceUrl/192.168.0.104:8761
+
+###
+
+POST http://localhost:8761/setServiceUrl/192.168.208.2:8761
+
+###
+
+POST http://192.168.176.2:8761/setServiceUrl/192.168.0.104:8761
+
+###
+
+POST http://localhost:8761/setServiceUrl/192.168.176.2:8761
+
+###
+
+POST http://192.168.160.2:8761/setServiceUrl/192.168.0.104:8761
+
+###
+
+POST http://localhost:8761/setServiceUrl/192.168.160.2:8761
+
+###
+
+POST http://localhost:8761/setServiceUrl/192.168.144.2:8761
+
+###
+
+POST http://192.168.144.2:8761/setServiceUrl/192.168.0.104:8761
+
+###
+
+POST http://localhost:8761/setServiceUrl/192.168.144.2:8761
+
+###
+
+POST http://192.168.128.2:8761/setServiceUrl/192.168.0.104:8761
+
+###
+
+POST http://localhost:8761/setServiceUrl/192.168.128.2:8761
+
+###
+
+GET http://localhost:8761
+
+<> 2023-03-04T031612.200.html
+
+###
+
+POST http://192.168.112.2:8761/setServiceUrl/192.168.0.104:8761
+
+###
+
+POST http://localhost:8761/setServiceUrl/192.168.112.2:8761
+
+###
+
+POST http://192.168.80.2:8761/setServiceUrl/192.168.0.104:8761
+
+###
+
+POST http://localhost:8761/setServiceUrl/192.168.80.2:8761
+
+###
+
+POST http://localhost:8761/setServiceUrl/192.168.64.2:8761
+
+###
+
+POST http://localhost:8761/setServiceUrl/192.168.64.2:8761
+
+###
+
+POST http://192.168.64.2:8761/setServiceUrl/192.168.0.104:8761
+
+###
+
+POST http://localhost:8761/setServiceUrl/192.168.64.2:8761
+
+###
+
+POST http://192.168.64.2:8761/setServiceUrl/192.168.0.104:8761
+
+###
+
+POST http://localhost:8761/setServiceUrl/192.168.64.2:8761
+
+###
+
+POST http://192.168.48.1:8761/setServiceUrl/192.168.0.104:8761
+
+###
+
+POST http://localhost:8761/setServiceUrl/192.168.48.1:8761
+
+###
+
+POST http://localhost:8761/setServiceUrl/192.168.32.2:8761
+
+###
+
+POST http://localhost:8761/setServiceUrl/192.168.32.2:8761
+
+###
+
+POST http://localhost:8761/setServiceUrl/192.168.32.2:8761
+
+<> f-1.txt
+
+###
+
+POST http://localhost:8761/setServiceUrl/192.168.32.2:8761
+
+<> f.txt
+
+###
+
+POST http://localhost:8761/setServiceUrl/192.168.32.2:8761/
+
+<> 2023-03-04T002212.404.json
+
+###
+

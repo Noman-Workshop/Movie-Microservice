@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2c434261-e5e9-4648-929f-6372c59482fa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../discoveryserver/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discoveryserver/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discoveryserver/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discoveryserver/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discoveryserver/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discoveryserver/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discoveryserver/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discoveryserver/src/main/java/com/cineplex/discoveryserver/DiscoveryServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discoveryserver/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discoveryserver/src/test/java/com/cineplex/discoveryserver/DiscoveryServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../moviecatalog/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../moviecatalog/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../moviecatalog/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../moviecatalog/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../moviecatalog/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../moviecatalog/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../moviecatalog/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../moviecatalog/src/main/java/com/cineplex/moviecatalog/MovieCatalogApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../moviecatalog/src/main/java/com/cineplex/moviecatalog/catalog/Catalog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../moviecatalog/src/main/java/com/cineplex/moviecatalog/catalog/MovieCatalogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../moviecatalog/src/main/java/com/cineplex/moviecatalog/catalog/dto/CatalogDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../moviecatalog/src/main/java/com/cineplex/moviecatalog/catalog/dto/MovieDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../moviecatalog/src/main/java/com/cineplex/moviecatalog/catalog/dto/RatingsDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../moviecatalog/src/main/java/com/cineplex/moviecatalog/catalog/dto/UserMovieCatalogDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../moviecatalog/src/main/java/com/cineplex/moviecatalog/catalog/services/MovieCatalogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../moviecatalog/src/main/java/com/cineplex/moviecatalog/catalog/services/external/MovieInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../moviecatalog/src/main/java/com/cineplex/moviecatalog/catalog/services/external/MovieRatingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../moviecatalog/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../moviecatalog/src/test/java/com/cineplex/moviecatalog/MovieCatalogApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../moviecatalog/src/test/java/com/cineplex/moviecatalog/requests.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movieinfo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movieinfo/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movieinfo/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movieinfo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movieinfo/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movieinfo/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movieinfo/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movieinfo/src/main/java/com/cineplex/movieinfo/MovieInfoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movieinfo/src/main/java/com/cineplex/movieinfo/movies/MovieInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movieinfo/src/main/java/com/cineplex/movieinfo/movies/dto/MovieDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movieinfo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movieinfo/src/test/java/com/cineplex/movieinfo/MovieInfoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movieinfo/src/test/java/com/cineplex/movieinfo/requests.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movieratings/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movieratings/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movieratings/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movieratings/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movieratings/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movieratings/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movieratings/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movieratings/src/main/java/com/cineplex/movieratings/MovieRatingsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movieratings/src/main/java/com/cineplex/movieratings/ratings/MovieRatingsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movieratings/src/main/java/com/cineplex/movieratings/ratings/dto/RatingsDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movieratings/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movieratings/src/test/java/com/cineplex/movieratings/MovieRatingsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movieratings/src/test/java/com/cineplex/movieratings/requests.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../docker-compose.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="movie-info" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="movie-info" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="movie-info" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MRi8ZvA0W3AS4eGfiCMwpugUwx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/noman1001/Projects/movie-microservice/apps/movie-info",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications",
+    "show.run.dashboard.notification": "false",
+    "spring.configuration.checksum": "d3de947eb9d1e70b37388b81781693f2"
+  }
+}]]></component>
+  <component name="RunManager" selected="Gradle.movie-info [clean]">
+    <configuration name="movie-info [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="movie-info [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="movie-info [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="movie-info [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MovieInfoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="movie-info.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cineplex.movieinfo.MovieInfoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieInfoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="movieinfo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cineplex.movieinfo.MovieInfoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.movie-info [clean]" />
+        <item itemvalue="Gradle.movie-info [bootJar]" />
+        <item itemvalue="Gradle.movie-info [build]" />
+        <item itemvalue="Gradle.movie-info [jar]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c434261-e5e9-4648-929f-6372c59482fa" name="Changes" comment="" />
+      <created>1677736636587</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677736636587</updated>
+      <workItem from="1677736638218" duration="622000" />
+      <workItem from="1677737732283" duration="3425000" />
+      <workItem from="1677749463128" duration="13000" />
+      <workItem from="1677749597809" duration="5300000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

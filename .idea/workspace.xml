@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3d587a56-47b3-4d1d-bf83-8a0b9be000c9" name="Changes" comment="Mind map architecture" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/apps/authentication">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/apps/config-server">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/apps/discovery-server">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/apps/movie-catalog">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/apps/movie-info">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/apps/movie-ratings">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/apps/movie-catalog">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/apps/movie-ratings">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/apps/discovery-server">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/apps/movie-info">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="discovery-server" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="discovery-server" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="discovery-server" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="UML Activity" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MSKl4Gs2JHSSgLCQjg4ksQuu1A" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Activity&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/noman1001/Projects/movie-microservice&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.27157652&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.plantuml.idea.settings.PlantUmlSettingsPage&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;bca611b592fa135f288a193505bd248b&quot;
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apps/movie-catalog/src/main/resources" />
+      <recent name="$PROJECT_DIR$/apps/movie-ratings/src/main/resources" />
+      <recent name="$PROJECT_DIR$/apps/movie-info/src/main/resources" />
+      <recent name="$PROJECT_DIR$/apps/discovery-server/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle bootJar" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="excludedTypes">
+      <set>
+        <option value="HttpClient.HttpRequestRunConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="HTTP Request.requests | #1">
+    <configuration name="discovery-server [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/apps/discovery-server" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/apps/movie-catalog/src/test/java/com/cineplex/moviecatalog/requests.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cineplex.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieCatalogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="movie-catalog.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cineplex.moviecatalog.MovieCatalogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieInfoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="movie-info.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cineplex.movieinfo.MovieInfoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieRatingsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="movie-ratings.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cineplex.movieratings.MovieRatingsApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cineplex.movieratings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.requests | #1" />
+        <item itemvalue="HTTP Request.generated-requests | #2" />
+        <item itemvalue="HTTP Request.generated-requests | #1" />
+        <item itemvalue="Spring Boot.MovieRatingsApplication" />
+        <item itemvalue="Gradle.discovery-server [bootJar]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d587a56-47b3-4d1d-bf83-8a0b9be000c9" name="Changes" comment="" />
+      <created>1677755693065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677755693065</updated>
+      <workItem from="1677755694837" duration="9388000" />
+      <workItem from="1677784816380" duration="3895000" />
+      <workItem from="1677840678565" duration="19359000" />
+      <workItem from="1677886289542" duration="217000" />
+      <workItem from="1677886832845" duration="1294000" />
+      <workItem from="1677919102918" duration="163000" />
+      <workItem from="1677919308152" duration="3939000" />
+      <workItem from="1678000803708" duration="2457000" />
+      <workItem from="1678004114004" duration="2774000" />
+      <workItem from="1678009420659" duration="150000" />
+      <workItem from="1678010530130" duration="2999000" />
+      <workItem from="1678092102441" duration="3984000" />
+      <workItem from="1678154778450" duration="3028000" />
+      <workItem from="1678351259063" duration="4654000" />
+      <workItem from="1678555631682" duration="1088000" />
+      <workItem from="1678625540323" duration="833000" />
+      <workItem from="1678868721985" duration="6462000" />
+      <workItem from="1679119628637" duration="53000" />
+      <workItem from="1679636799168" duration="636000" />
+      <workItem from="1683628143704" duration="52000" />
+    </task>
+    <task id="LOCAL-00001" summary="Eureka peers config&#10;&#10;Peers need to register to each other">
+      <created>1677882755593</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677882755593</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Removing the timeout">
+      <created>1677886025946</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677886025946</updated>
+    </task>
+    <task id="LOCAL-00003" summary="merging into main">
+      <created>1677887286548</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677887286548</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added auth service for configuration practice">
+      <created>1678001640943</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678001640943</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added more configuration">
+      <created>1678010651001</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678010651001</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added auth specific configuration">
+      <created>1678011763314</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678011763314</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ROADMap added">
+      <created>1678356926353</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678356926353</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Mind map architecture">
+      <created>1678356957679</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678356957679</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Eureka peers config&#10;&#10;Peers need to register to each other" />
+    <MESSAGE value="Removing the timeout" />
+    <MESSAGE value="merging into main" />
+    <MESSAGE value="added auth service for configuration practice" />
+    <MESSAGE value="added more configuration" />
+    <MESSAGE value="added auth specific configuration" />
+    <MESSAGE value="ROADMap added" />
+    <MESSAGE value="Mind map architecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mind map architecture" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,19 @@
+{
+  "userId": "1",
+  "catalog": [
+    {
+      "movieId": "t15",
+      "name": "Movie t15",
+      "description": "Description t15",
+      "rating": 4,
+      "playlist": "Favorite"
+    },
+    {
+      "movieId": "a1",
+      "name": "Movie a1",
+      "description": "Description a1",
+      "rating": 4,
+      "playlist": "Watched"
+    }
+  ]
+}

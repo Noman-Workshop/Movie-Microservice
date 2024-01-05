@@ -1,0 +1,13 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: discovery-server
+
+eureka:
+  instance:
+    hostname: ${spring.application.name}-peer-${random.value}
+    appname: ${spring.application.name}
+    instance-id: ${spring.application.name}-${random.value}
+    prefer-ip-address: true
