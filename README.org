@@ -1,0 +1,23 @@
+* Roadmap
+** Authentication & Authorization
+*** Create a JWT authentication server
+*** Create User CRUD service
+*** Integrate Auth server with User CRUD service
+*** Create a JWT blacklist with Redis
+** API Gateway
+*** API Gateway integrates the authentication and authorization services
+*** Integrate guest user authorization
+*** Redis replica load balancing with consistent hashing based on JWT signature
+** Discovery Server
+*** Create a eureka discovery server to integrate the services
+** Kafka Cluster
+*** Create a kafka cluster and UI along with integration of docker-compose
+*** Create topic based database mutation with kafka
+** Database Load Balancing
+*** Create a custom database load balancer
+** Business Logic
+*** Plan a business logic for cineplex movie streaming and ticketing services
+** CQRS
+*** Integrate CQRS for popular business queries with nosql databases
+** SAGA
+***

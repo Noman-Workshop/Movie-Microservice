@@ -17,25 +17,21 @@ ext {
 }
 
 dependencies {
-	// spring boot web
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
-	//	lombok dependency
-	compileOnly 'org.projectlombok:lombok:1.18.26'
-	annotationProcessor 'org.projectlombok:lombok:1.18.26'
+	// spring boot actuator
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 
-	testCompileOnly 'org.projectlombok:lombok:1.18.26'
-	testAnnotationProcessor 'org.projectlombok:lombok:1.18.26'
+	// bootstrap config
+	implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
 
-	// eureka client
-	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+	// cloud client config
+	implementation 'org.springframework.cloud:spring-cloud-starter-config'
 
-	// swagger2
-	implementation 'io.springfox:springfox-boot-starter:3.0.0'
-	implementation 'io.springfox:springfox-swagger-ui:3.0.0'
+	// security dependencies
+	implementation 'org.springframework.boot:spring-boot-starter-security'
 }
-
 
 dependencyManagement {
 	imports {
