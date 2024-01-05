@@ -11,6 +11,10 @@ eureka:
     appname: ${spring.application.name}
     instance-id: ${spring.application.name}-${random.value}
     prefer-ip-address: true
+<<<<<<< Updated upstream:apps/movie-catalog/build/resources/main/application.yml
   client:
     service-url:
       defaultZone: http://172.28.0.3:8761/eureka/
+=======
+    status-page-url-path: /swagger-ui/index.html
+>>>>>>> Stashed changes:apps/movie-ratings/src/main/resources/application.yml
